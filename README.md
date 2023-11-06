@@ -8,6 +8,6 @@ e após a confirmação mudará para uma tela com os foguetes cadastrados utiliz
 valor do lucro do lançamento e a data.
 
 # Técnologias
--React.js
--Node.js
--MongoDB
+- React.js
+- Node.js
+- MongoDB
