@@ -1,0 +1,56 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+button{
+    border: none;
+    text-decoration: none;
+    width: 17rem;
+    height: 3.5625rem;
+    margin-botton: 0.2rem;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content_cadastro{
+    text-align: center;
+}
+
+.box_login{
+    width: 19rem;
+    height: 21rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.625rem;
+    background: #C4C4C4; 
+}
+
+.text_box{
+    width: 17rem;
+    height: 3.5625rem;
+    margin-botton: 0.9rem;
+    border-radius: 0.625rem;
+    border: 1px solid #000;
+}
+
+.button_entrar{
+    margin-top: 2rem;
+    border-radius: 0.625rem;
+    background: #4BB543;
+}
+
+.button_cadastro{
+    background: none;
+}

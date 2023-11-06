@@ -1,0 +1,58 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+button{
+  width: 17rem;
+  height: 3.5625rem;
+  margin: 0.2rem 0.9rem;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content_cadastro{
+    text-align: center;
+    width: 19rem;
+    height: 21rem;
+}
+
+.box{
+    flex-direction: column;
+    width: 19rem;
+    height: 21rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.625rem;
+    background: #C4C4C4; 
+}
+  
+.textbox, .numberbox{
+    width: 17rem;
+    height: 3.5625rem;
+    border-radius: 0.625rem;
+    border: 1px solid #000;
+}
+
+.numberbox{
+    margin-top: 2rem;
+}
+
+.buttoncadastro{
+    margin-top: 2rem;
+    border-radius: 0.625rem;
+    background: #4BB543;
+}
